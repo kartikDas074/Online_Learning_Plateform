@@ -8,6 +8,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import background from "../../../assets/background.jpg";
 import { Form } from "@heroui/react";
 import { authClient } from '@/lib/auth-client';
+import { toast } from 'react-toastify';
 const Signin = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [email, setEmail] = useState('');
@@ -27,7 +28,11 @@ const Signin = () => {
     rememberMe: true,
     callbackURL: "/",
     });
-        console.log(data);
+        // console.log(data); 
+         if (error) {
+              toast.error(error.message || "Signin failed!");
+              return;
+            }
     };
 
     const handleGoogleSignIn = () => {

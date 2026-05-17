@@ -1,0 +1,812 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "Dr. Angela Yu",
+    "duration": "65 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Become a full-stack web developer from absolute scratch. This comprehensive bootcamp covers everything from basic layout structures to complex server-side deployment. You will build real-world portfolio projects that make you ready for junior developer jobs immediately after graduation.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop",
+    "category": "Development",
+    "Learn": [
+      "Build full-stack web applications cleanly.",
+      "Master modern responsive frontend layouts.",
+      "Develop robust backend server systems.",
+      "Manage scalable database integration architectures.",
+      "Create complex dynamic React components."
+    ],
+    "Course-curriculam": [
+      "Section 1: Frontend Web Development - HTML & CSS Essentials",
+      "Section 2: Intermediate CSS - Layouts, Flexbox, and Responsive Design",
+      "Section 3: Javascript Programming - Basics to Advanced DOM Manipulation",
+      "Section 4: Backend Fundamentals - Node.js, Express, and Server-side Logic",
+      "Section 5: Database Architecture - SQL vs NoSQL (MongoDB)",
+      "Section 6: Modern Frontend Engineering - React.js Framework"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript & TypeScript Masterclass",
+    "instructor": "Jonas Schmedtmann",
+    "duration": "42 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Deep dive into the deepest mechanics of modern JavaScript frameworks. Learn how the browser executes engine requests, master scope closures, and scale applications safely using structural TypeScript setups. Perfect for developers wanting to transition from mid-level to senior roles smoothly.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop",
+    "category": "Development",
+    "Learn": [
+      "Understand complex core JavaScript mechanics.",
+      "Master intermediate object-oriented programming designs.",
+      "Handle advanced asynchronous network workflows.",
+      "Write type-safe scalable TypeScript code.",
+      "Configure modern bundle compilation tools."
+    ],
+    "Course-curriculam": [
+      "Section 1: Deep Dive Into the JavaScript Engine & Execution",
+      "Section 2: Advanced OOP, Prototypes, and Functional JS",
+      "Section 3: Asynchronous JavaScript - Event Loop & Promises",
+      "Section 4: Getting Started with TypeScript Setup & Configuration",
+      "Section 5: Advanced TypeScript Types, Generics, and Decorators",
+      "Section 6: Building a Real-world Enterprise Project with TypeScript"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 3,
+    "title": "Next.js 15 & React - The Complete Guide",
+    "instructor": "Maximilian Schwarzmüller",
+    "duration": "30 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Unlock the true potential of server-driven frontend applications. This course teaches you everything about Next.js 15, including App Router mechanics, server mutations, and static generation targets. Build production-grade software equipped with cutting-edge SEO optimization architectures out of the box.",
+     "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop",
+    "category": "Development",
+    "Learn": [
+      "Master dynamic directory layout routing.",
+      "Optimize application network rendering speeds.",
+      "Implement secure server form actions.",
+      "Integrate advanced stateless user authentication.",
+      "Deploy scalable production builds globally."
+    ],
+    "Course-curriculam": [
+      "Section 1: React Refresher & Next.js Core Philosophy",
+      "Section 2: Routing Architecture - Pages vs Modern App Router",
+      "Section 3: Data Fetching Paradigms - SSR, SSG, and ISR",
+      "Section 4: Server Actions - Mutations and Secure Form Submissions",
+      "Section 5: Authentication, Security Middleware, and Protected Routes",
+      "Section 6: Deployment Optimization, SEO Tuning, and Monitoring"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 4,
+    "title": "Responsive Web Design with Tailwind CSS",
+    "instructor": "Sarah Jenkins",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Stop wasting time writing thousands of lines of raw CSS stylesheets. Learn how to construct beautiful modern web landing pages lightning fast using utility-first configuration classes. This course focus heavy on responsive web break-points, interface prototyping, and custom dark mode layout configurations.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=600&auto=format&fit=crop",
+    "category": "Development",
+    "Learn": [
+      "Learn utility-first responsive styling workflows.",
+      "Apply adaptive modern viewport layout-grids.",
+      "Build complex interactive reusable UI-components.",
+      "Customize structural layout theme configurations.",
+      "Implement smooth clean dark-mode interfaces."
+    ],
+    "Course-curriculam": [
+      "Section 1: Modern CSS Layout Systems - Flexbox and CSS Grid Intro",
+      "Section 2: Tailwind CSS Setup - CLI Configuration & CDN Integration",
+      "Section 3: Core Concepts - Utilities, Dynamic Classes, and Hover States",
+      "Section 4: Responsive Media Queries and Breakpoint Rules",
+      "Section 5: Building a Complete SaaS Product Landing Page Template",
+      "Section 6: Production Optimization - Purging Unused CSS Classes"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 5,
+    "title": "Node.js, Express & MongoDB Complete Guide",
+    "instructor": "Brad Traversy",
+    "duration": "35 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Fulfill your dream of becoming a complete backend architecture engineer. You will learn node runtime mechanics, construct robust rest api routes, handle security authentication, and store data in cloud structures. By the end, you will confidently launch live web services onto production host networks.",
+    "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=600&auto=format&fit=crop",
+    "category": "Development",
+    "Learn": [
+      "Construct high-performance scalable server environments.",
+      "Design industry-standard secure RESTful APIs.",
+      "Enforce strict token authorization systems.",
+      "Fix dangerous backend security vulnerabilities.",
+      "Deploy working scripts onto clouds."
+    ],
+    "Course-curriculam": [
+      "Section 1: Server Framework Foundations - Node.js Event Loop Basics",
+      "Section 2: Express.js Fundamentals - Middleware Functions & Routing",
+      "Section 3: Database Integration - Setting Up Atlas MongoDB Connections",
+      "Section 4: User Management - Encrypting Passwords with Bcrypt",
+      "Section 5: Advanced Route Guards - Validation and Custom Error Handlers",
+      "Section 6: Multi-Environment Deployment & Cloud Server Environments"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 6,
+    "title": "MERN Stack Cloud SaaS Automation",
+    "instructor": "David Malan",
+    "duration": "50 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Learn to architect multi-tenant SaaS automation platforms used by millions globally. This heavy development course connects client engines to real-time pipelines using secure multi-payment pathways and automated email integrations. Designed specifically for advanced developers chasing startup-level builds.",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=600&auto=format&fit=crop",
+    "category": "Development",
+    "Learn": [
+      "Structure multi-tenant database boundary schemas.",
+      "Establish live bi-directional data networks.",
+      "Integrate automated merchant payment processing.",
+      "Implement unsigned background media uploads.",
+      "Build transactional email alert channels."
+    ],
+    "Course-curriculam": [
+      "Section 1: SaaS Architecture Design - Scalable Repository Setups",
+      "Section 2: Advanced State Controls - Redux Toolkit Enterprise Logic",
+      "Section 3: Billing Integrations - Webhook Setup & Stripe Dashboards",
+      "Section 4: Realtime Systems - bi-directional Client Communications with Socket.io",
+      "Section 5: File Upload Infrastructure - Cloudinary Unsigned Integrations",
+      "Section 6: Docker Containerization and Deployment Pipelines"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning Practical Masterclass",
+    "instructor": "Andrew Ng",
+    "duration": "45 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Supercharge your career by mastering foundational machine learning concepts. This course guides you step-by-step through regression models, clustering techniques, and statistical evaluation criteria. You will build and optimize production-ready pipelines using industry-standard Python libraries.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=600&auto=format&fit=crop",
+    "category": "Artificial Intelligence",
+    "Learn": [
+      "Master foundational supervised learning algorithms.",
+      "Implement advanced unsupervised clustering techniques.",
+      "Evaluate statistical machine learning models.",
+      "Clean complex raw data pipelines.",
+      "Deploy intelligent predictive software models."
+    ],
+    "Course-curriculam": [
+      "Section 1: Data Preprocessing & Statistical Operations",
+      "Section 2: Supervised Learning - Regression Frameworks",
+      "Section 3: Classification Models - Logistic and SVM",
+      "Section 4: Unsupervised Learning - K-Means Clustering",
+      "Section 5: Feature Engineering & Parameter Tuning",
+      "Section 6: Deploying Models onto Production Servers"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 8,
+    "title": "Deep Learning & Neural Networks",
+    "instructor": "Andrej Karpathy",
+    "duration": "55 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Dive deep into the mathematical foundations of artificial brains. Learn how backpropagation works, design convolutional networks for computer vision, and construct recurrent systems for sequential data. This comprehensive guide turns complex formulas into practical, working PyTorch structures.",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
+    "category": "Artificial Intelligence",
+    "Learn": [
+      "Build deep artificial neural architectures.",
+      "Master mathematical model backpropagation mechanics.",
+      "Design advanced computer vision solutions.",
+      "Construct recurrent sequential memory models.",
+      "Optimize complex structural neural weights."
+    ],
+    "Course-curriculam": [
+      "Section 1: Introduction to Artificial Neurons & Activation",
+      "Section 2: Mathematical Foundations of Backpropagation",
+      "Section 3: Computer Vision - Convolutional Neural Networks",
+      "Section 4: Sequence Modelling - RNNs and LSTMs",
+      "Section 5: Optimization Strategies - Adam and SGD",
+      "Section 6: Building Custom PyTorch Model Layers"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 9,
+    "title": "Natural Language Processing with Transformers",
+    "instructor": "Hugging Face Team",
+    "duration": "38 hours",
+    "rating": 4.7,
+    "level": "Advanced",
+    "description": "Learn how modern language models understand and generate human text. This advanced curriculum focuses heavily on tokenization strategies, self-attention mechanisms, and fine-tuning massive pretrained checkpoint architectures. You will construct custom text classification and translation services smoothly.",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=600&auto=format&fit=crop",
+    "category": "Artificial Intelligence",
+    "Learn": [
+      "Understand modern transformer network components.",
+      "Tokenize complex raw human texts.",
+      "Fine-tune pretrained large language frameworks.",
+      "Build advanced language translation services.",
+      "Implement neural semantic search algorithms."
+    ],
+    "Course-curriculam": [
+      "Section 1: Text Tokenization & Vector Embeddings Essentials",
+      "Section 2: The Transformer Architecture - Attention Mechanisms",
+      "Section 3: Classification and Named Entity Recognition",
+      "Section 4: Fine-Tuning Models on Custom Datasets",
+      "Section 5: Sentence Embeddings and Vector Search",
+      "Section 6: Optimizing Transformers for Faster Inference"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 10,
+    "title": "Generative AI & LLM Developer Bootcamp",
+    "instructor": "Dr. Sam Altman",
+    "duration": "32 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Step into the future of software development by mastering generative systems. Learn to leverage advanced API architectures, orchestrate complex prompt templates, and connect structural external databases through Retrieval-Augmented Generation (RAG). Perfect for engineers building intelligent agents.",
+     "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop",
+    "category": "Artificial Intelligence",
+    "Learn": [
+      "Integrate powerful commercial LLM APIs.",
+      "Design advanced dynamic prompt templates.",
+      "Implement contextual vector search indexing.",
+      "Build autonomous software agent frameworks.",
+      "Secure intelligent generative application outputs."
+    ],
+    "Course-curriculam": [
+      "Section 1: Generative AI Foundations & Model Overview",
+      "Section 2: Prompt Engineering Techniques and Frameworks",
+      "Section 3: Vector Databases - Pinecone and Milvus Integration",
+      "Section 4: Building RAG Systems with LangChain",
+      "Section 5: Developing Autonomous Multi-Agent Workflows",
+      "Section 6: Prompt Injection Defense and Safety Guardrails"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 11,
+    "title": "Computer Vision & Advanced Image Processing",
+    "instructor": "Dr. Fei-Fei Li",
+    "duration": "40 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Teach computers to visual interpret surroundings accurately. This applied curriculum combines traditional open-cv spatial manipulations with cutting-edge real-time object tracking neural frameworks like YOLO. You will develop highly responsive image segmentation pipelines suitable for automation systems.",
+    "image": "https://images.unsplash.com/photo-1527474305487-b87b222841cc?q=80&w=600&auto=format&fit=crop",
+    "category": "Artificial Intelligence",
+    "Learn": [
+      "Apply structural spatial image manipulations.",
+      "Train custom real-time detection systems.",
+      "Implement multi-object visual tracking parameters.",
+      "Construct precise semantic image segmentations.",
+      "Optimize camera frame processing speeds."
+    ],
+    "Course-curriculam": [
+      "Section 1: Classic Image Processing using OpenCV",
+      "Section 2: Object Detection Foundations - Bounding Boxes",
+      "Section 3: Realtime Detection Architectures - YOLO Masterclass",
+      "Section 4: Image Segmentation and Masking Layouts",
+      "Section 5: Face Recognition and Gesture Analysis",
+      "Section 6: Edge Deployment for Micro-Camera Hardware"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+    "id": 12,
+    "title": "Reinforcement Learning & AI Agents",
+    "instructor": "Richard Sutton",
+    "duration": "50 hours",
+    "rating": 4.8,
+    "level": "Advanced",
+    "description": "Unlock the pinnacle of artificial decision-making architectures. Master reward-based system policies, explore deep Q-networks, and simulate synthetic environments where algorithms learn through repetitive trial and error. Ideal for developers wanting to construct smart game setups or trade networks.",
+    "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=600&auto=format&fit=crop",
+    "category": "Artificial Intelligence",
+    "Learn": [
+      "Formulate mathematical reward environment dynamics.",
+      "Optimize complex policy optimization algorithms.",
+      "Deploy intelligent deep Q-network architectures.",
+      "Simulate custom multi-agent virtual sandboxes.",
+      "Train stable competitive gaming profiles."
+    ],
+    "Course-curriculam": [
+      "Section 1: Markov Decision Processes & Core Concepts",
+      "Section 2: Bellman Equations and Dynamic Programming",
+      "Section 3: Model-Free Control - Q-Learning Essentials",
+      "Section 4: Deep Reinforcement Learning - Deep Q-Networks",
+      "Section 5: Policy Gradient Methods and PPO Scaling",
+      "Section 6: Environment Simulation Setup using OpenAI Gym"
+    ],
+    "instructorimage": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=300&auto=format&fit=crop"
+  },
+  {
+  "id": 13,
+  "title": "Mastering Data Structures & Algorithms",
+  "instructor": "Abdul Bari",
+  "duration": "58 hours",
+  "rating": 4.9,
+  "level": "Intermediate",
+  "description": "Crack coding interviews at top tech companies by mastering algorithmic thinking. This course deep dives into complex concepts like dynamic programming, graph traversals, and segment trees. You will learn to optimize code performance and analyze exact time complexities with confidence.",
+  "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=600&auto=format&fit=crop",
+  "category": "Programming",
+  "Learn": [
+    "Analyze exact algorithmic time complexities.",
+    "Implement advanced recursive dynamic programming.",
+    "Traverse complex structural graph networks.",
+    "Optimize searching using segment trees.",
+    "Solve competitive programming array challenges."
+  ],
+  "Course-curriculam": [
+    "Section 1: Asymptotic Notation & Time Complexity Analysis",
+    "Section 2: Linear Data Structures - Stacks, Queues, and Linked Lists",
+    "Section 3: Trees & Graphs - DFS, BFS, and Shortest Path Algorithms",
+    "Section 4: Divide and Conquer vs Greedy Approaches",
+    "Section 5: Dynamic Programming - Knapsack and LCS Deep Dive",
+    "Section 6: Advanced Data Structures - Segment Trees and Fenwick Trees"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 14,
+  "title": "Competitive Programming Core Blueprint",
+  "instructor": "William Lin",
+  "duration": "40 hours",
+  "rating": 4.8,
+  "level": "Advanced",
+  "description": "Transform your problem-solving speeds to dominate platforms like Codeforces and AtCoder. Learn highly specialized math rules, bitwise optimization techniques, and advanced tree mechanics like Lowest Common Ancestor (LCA). This blueprint shifts your focus toward fast, bug-free implementation under immense pressure.",
+  "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=600&auto=format&fit=crop",
+  "category": "Programming",
+  "Learn": [
+    "Optimize execution using bitwise operations.",
+    "Compute advanced modular arithmetic formulas.",
+    "Find lowest common ancestors efficiently.",
+    "Implement rapid string matching algorithms.",
+    "Debug complex logic errors quickly."
+  ],
+  "Course-curriculam": [
+    "Section 1: Number Theory - Sieve of Eratosthenes & GCD Mechanics",
+    "Section 2: Bit Manipulation Tricks for High-Speed Execution",
+    "Section 3: Advanced Trees - LCA, Heavy-Light Decomposition",
+    "Section 4: Range Queries - Sparse Tables and Disjoint Set Union",
+    "Section 5: String Algorithms - KMP and Rabin-Karp Layouts",
+    "Section 6: Codeforces Contest Simulation and Post-Match Analysis"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 15,
+  "title": "Object-Oriented Design & Clean Code",
+  "instructor": "Robert C. Martin",
+  "duration": "25 hours",
+  "rating": 4.7,
+  "level": "Intermediate",
+  "description": "Stop just writing code and start architecting highly scalable software platforms. This conceptual guide strictly teaches SOLID principles, structural design patterns, and industry-standard refactoring guidelines. You will learn how to turn messy script repositories into beautiful, production-grade systems.",
+   "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop",
+  "category": "Programming",
+  "Learn": [
+    "Enforce strict structural SOLID architectures.",
+    "Apply reusable creational design patterns.",
+    "Refactor legacy monolithic script frameworks.",
+    "Write highly decoupled modular software.",
+    "Implement clean meaningful code naming."
+  ],
+  "Course-curriculam": [
+    "Section 1: The Cost of Messy Code & Technical Debt",
+    "Section 2: Breaking Down SOLID Principles with Real Examples",
+    "Section 3: Creational Design Patterns - Singleton and Factory",
+    "Section 4: Structural Patterns - Adapter, Decorator, and Facade",
+    "Section 5: Behavioral Layouts - Observer and Strategy Patterns",
+    "Section 6: Code Smells & Refactoring Legacy Codebases safely"
+  ],
+    "instructorimage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 16,
+  "title": "C++ Enterprise System Programming",
+  "instructor": "Bjarne Stroustrup",
+  "duration": "50 hours",
+  "rating": 4.9,
+  "level": "Advanced",
+  "description": "Master high-performance systems engineering using modern C++ standards. This deeply technical course teaches raw memory management mechanics, custom pointers, and multi-threaded asynchronous runtime loops. Perfect for developers building game software, embedded hardware controllers, or low-latency systems.",
+  "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=600&auto=format&fit=crop",
+  "category": "Programming",
+  "Learn": [
+    "Manage raw memory allocations explicitly.",
+    "Utilize modern resource-safe smart pointers.",
+    "Build concurrent multi-threaded execution environments.",
+    "Optimize compiled software execution layouts.",
+    "Write complex custom template classes."
+  ],
+  "Course-curriculam": [
+    "Section 1: Modern C++ Standards Overview (C++20/23)",
+    "Section 2: Memory Architecture - Stack vs Heap Mechanics",
+    "Section 3: RAII Philosophy & Smart Pointers (Unique, Shared)",
+    "Section 4: Advanced Template Metaprogramming & Compile-time Logic",
+    "Section 5: Concurrency - Threads, Mutexes, and Async Operations",
+    "Section 6: Low-Level Profiling & Optimizing CPU Instructions"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 17,
+  "title": "The Ultimate Python Developer Course",
+  "instructor": "Jose Portilla",
+  "duration": "35 hours",
+  "rating": 4.6,
+  "level": "Beginner",
+  "description": "Unlock the incredible power of the world's most versatile language runtime environments. Master basic conditional script structures, learn file processing mechanics, and design custom object classes. This complete masterclass includes multiple capstone projects preparing you directly for automation careers.",
+  "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=600&auto=format&fit=crop",
+  "category": "Programming",
+  "Learn": [
+    "Write clean readable object-oriented scripts.",
+    "Process diverse local text files.",
+    "Automate repetitive operational data workflows.",
+    "Create custom functional utility scripts.",
+    "Manage virtual software runtime packages."
+  ],
+  "Course-curriculam": [
+    "Section 1: Python Setup & Core Syntax Foundations",
+    "Section 2: Control Flow, Loops, and Complex Functions",
+    "Section 3: Object-Oriented Programming (OOP) in Python",
+    "Section 4: Exception Handling & File I/O System Operations",
+    "Section 5: Built-in Libraries for Web Scraping & Automation",
+    "Section 6: Setting up Virtual Environments & Creating Packages"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 18,
+  "title": "Software Architecture & System Design",
+  "instructor": "Alex Xu",
+  "duration": "42 hours",
+  "rating": 4.8,
+  "level": "Advanced",
+  "description": "Learn how to build global digital networks that scale smoothly to support billions of concurrent client devices. Master horizontal computing distribution systems, design optimal load balancing architectures, and coordinate secure cluster caching. Crucial for senior developer career shifts.",
+  "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=600&auto=format&fit=crop",
+  "category": "Programming",
+  "Learn": [
+    "Design massive horizontally scalable systems.",
+    "Configure smart server load balancing.",
+    "Implement multi-tier cloud database caching.",
+    "Mitigate complex network single failures.",
+    "Partition massive relational database volumes."
+  ],
+  "Course-curriculam": [
+    "Section 1: Foundations of Scalability - Vertical vs Horizontal",
+    "Section 2: Load Balancers & Reverse Proxies Configuration",
+    "Section 3: Caching Strategies - Redis & Memcached Architectural Patterns",
+    "Section 4: Database Scaling - Sharding, Replication, and NoSQL Choices",
+    "Section 5: Message Queues & Microservices Decoupling (Kafka/RabbitMQ)",
+    "Section 6: Real-world Case Studies: Designing YouTube and Uber Scales"
+  ],
+ "instructorimage": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=300&auto=format&fit=crop"
+},{
+  "id": 19,
+  "title": "Discrete Mathematics for Computer Science",
+  "instructor": "Dr. Tom Leighton",
+  "duration": "45 hours",
+  "rating": 4.9,
+  "level": "Beginner",
+  "description": "Master the absolute mathematical foundations of computer science and algorithm design. This core course covers propositional logic, set theory, combinatorics, and graph structures deeply. You will develop the precise mathematical thinking required to prove algorithmic correctness and tackle complex data structures.",
+  "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=600&auto=format&fit=crop",
+  "category": "Mathematics",
+  "Learn": [
+    "Formulate complex propositional logic proofs.",
+    "Master advanced combinatorics counting techniques.",
+    "Understand structural graph theory properties.",
+    "Apply mathematical induction validation methods.",
+    "Solve modular arithmetic cryptography challenges."
+  ],
+  "Course-curriculam": [
+    "Section 1: Propositional Logic, Predicates, and Quantifiers",
+    "Section 2: Methods of Proof - Direct, Contradiction, and Induction",
+    "Section 3: Set Theory, Relations, and Advanced Functions",
+    "Section 4: Combinatorics - Permutations, Combinations, and Pigeonhole Principle",
+    "Section 5: Graph Theory Fundamentals - Trees, Euler, and Hamilton Paths",
+    "Section 6: Number Theory Foundations and RSA Cryptography"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 20,
+  "title": "Probability & Statistics for AI Engineering",
+  "instructor": "Dr. Joseph Blitzstein",
+  "duration": "38 hours",
+  "rating": 4.8,
+  "level": "Intermediate",
+  "description": "Unlock the core statistical mechanics that drive modern artificial intelligence and machine learning architectures. Learn how to compute conditional probabilities, model random variables, and implement Bayesian inference rules safely. Essential for developers wanting to understand data distributions and building predictive models.",
+  "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+  "category": "Mathematics",
+  "Learn": [
+    "Compute complex conditional probability matrices.",
+    "Model discrete continuous random variables.",
+    "Apply advanced Bayesian inference frameworks.",
+    "Analyze foundational statistical data distributions.",
+    "Implement core hypothesis testing algorithms."
+  ],
+  "Course-curriculam": [
+    "Section 1: Probability Spaces, Sample Spaces, and Counting",
+    "Section 2: Conditional Probability and Bayes' Theorem Core Mechanics",
+    "Section 3: Random Variables - Expectation, Variance, and Moments",
+    "Section 4: Common Distributions - Binomial, Normal, and Poisson Models",
+    "Section 5: Statistical Inference - Estimation and Confidence Intervals",
+    "Section 6: Hypothesis Testing and Regression Analysis for Machine Learning"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 21,
+  "title": "Linear Algebra for Data Science",
+  "instructor": "Gilbert Strang",
+  "duration": "42 hours",
+  "rating": 4.9,
+  "level": "Intermediate",
+  "description": "Deep dive into the matrix mathematics that fuels computer graphics, game engines, and neural network transformations. Master vector spaces, eigenvalues, eigenvectors, and singular value decomposition algorithms. You will learn to manipulate high-dimensional data spaces and optimize structural transformations efficiently.",
+  "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop",
+  "category": "Mathematics",
+  "Learn": [
+    "Manipulate multi-dimensional matrix operations.",
+    "Calculate structural eigenvalues and eigenvectors.",
+    "Transform dimensional vector spaces linearly.",
+    "Apply singular value decomposition matrixes.",
+    "Optimize data projections using linearities."
+  ],
+  "Course-curriculam": [
+    "Section 1: Systems of Linear Equations & Gaussian Elimination",
+    "Section 2: Vector Spaces, Subspaces, and Basis Dimensions",
+    "Section 3: Linear Transformations and Matrix Representations",
+    "Section 4: Determinants, Eigenvalues, and Eigenvectors Deep Dive",
+    "Section 5: Orthogonality, Least Squares, and Gram-Schmidt Process",
+    "Section 6: Singular Value Decomposition (SVD) & Principal Component Analysis"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 22,
+  "title": "English for Software Engineers & Tech Professionals",
+  "instructor": "Rebecca Smith",
+  "duration": "20 hours",
+  "rating": 4.7,
+  "level": "Beginner",
+  "description": "Accelerate your career growth by upgrading your professional English communication skills. Learn how to draft precise pull request descriptions, write clean system documentation, and write impactful emails to international clients. This practical boot camp builds immense confidence for corporate technical collaboration.",
+  "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop",
+  "category": "English",
+  "Learn": [
+    "Write highly structured technical documentations.",
+    "Draft professional formal corporate emails.",
+    "Communicate architectural designs fluently during meetings.",
+    "Structure precise GitHub pull requests.",
+    "Conduct confident client interview negotiations."
+  ],
+  "Course-curriculam": [
+    "Section 1: Professional Writing - Emails, Slack Etiquette, and Reports",
+    "Section 2: Technical Writing - Clear Documentation & Markdown Standards",
+    "Section 3: Mastering GitHub Communication - Issues, PRs, and Code Reviews",
+    "Section 4: Verbal Communication - Standups, Sprints, and Agile Meetings",
+    "Section 5: Presentation Skills - Explaining Complex Architectures Simply",
+    "Section 6: Interview Preparation - Behavioral Questions and Negotiations"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 23,
+  "title": "Technical Presentation & Developer Pitching",
+  "instructor": "Simon Sinek",
+  "duration": "18 hours",
+  "rating": 4.6,
+  "level": "Intermediate",
+  "description": "Stop letting poor communication overshadow your high-quality engineering work. Learn the art of breaking down complex system frameworks into simple, compelling visual narratives for non-technical managers or startup investors. Perfect your speaking rhythm, slides design, and live product demonstration flows.",
+  "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=600&auto=format&fit=crop",
+  "category": "English",
+  "Learn": [
+    "Simplify complex software system designs.",
+    "Design engaging minimalist visual slides.",
+    "Deliver highly confident live demonstrations.",
+    "Answer tough technical audience questions.",
+    "Structure compelling product startup pitches."
+  ],
+  "Course-curriculam": [
+    "Section 1: Audience Analysis - Speaking to Tech vs Non-Tech People",
+    "Section 2: Storytelling in Tech - Structuring Your Engineering Narrative",
+    "Section 3: Slide Design Patterns for Clean Software Presentations",
+    "Section 4: The Art of Live Demos - Handling Failures Gracefully",
+    "Section 5: Body Language, Voice Modulation, and Camera Presence",
+    "Section 6: Q&A Management - Confidently Handling Unexpected Questions"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 24,
+  "title": "Academic English & Research Writing for CSE",
+  "instructor": "Dr. Alan Turing",
+  "duration": "28 hours",
+  "rating": 4.8,
+  "level": "Advanced",
+  "description": "Master the rigorous standards of international academic research paper publication in computer science fields. This specialized course teaches you how to write formal abstracts, literature reviews, and structural methodology arguments. Avoid common grammatical traps and format your equations perfectly for IEEE standard targets.",
+  "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=600&auto=format&fit=crop",
+  "category": "English",
+  "Learn": [
+    "Compose strict academic research abstracts.",
+    "Formulate rigorous structural methodology arguments.",
+    "Analyze existing published literature evaluations.",
+    "Format precise citation bibliographies correctly.",
+    "Avoid common formal grammatical errors."
+  ],
+  "Course-curriculam": [
+    "Section 1: Anatomy of a Computer Science Research Paper",
+    "Section 2: Academic Vocabulary, Formal Tone, and Sentence Structures",
+    "Section 3: Writing a Comprehensive Literature Review Matrix",
+    "Section 4: Describing Methodology, Frameworks, and Experimental Setups",
+    "Section 5: Data Visualization - Explaining Graphs and Charts Academically",
+    "Section 6: IEEE & ACM Formatting, Citations, and Plagiarism Prevention"
+  ],
+ "instructorimage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 25,
+  "title": "Introduction to Robotics & Kinematics",
+  "instructor": "Dr. Angela Yu",
+  "duration": "45 hours",
+  "rating": 4.8,
+  "level": "Beginner",
+  "description": "Explore the foundational mechanics behind designing and programming physical robot systems. This introductory course covers forward and inverse kinematics, coordinate transformations, and basic actuator controls. You will learn to mathematically model mechanical joints and simulate their movements accurately.",
+  "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=600&auto=format&fit=crop",
+  "category": "Robotics",
+  "Learn": [
+    "Model foundational robot kinematic structures.",
+    "Calculate precise coordinate joint transformations.",
+    "Control physical electronic actuator movements.",
+    "Simulate mechanical spatial limb trajectories.",
+    "Analyze structural robot design configurations."
+  ],
+  "Course-curriculam": [
+    "Section 1: Introduction to Robotics Frameworks & History",
+    "Section 2: Spatial Descriptions and Coordinate Transformations",
+    "Section 3: Forward Kinematics - Link Equations and Matrices",
+    "Section 4: Inverse Kinematics - Solving Joint Angles",
+    "Section 5: Actuators, Gears, and Mechanical Drive Systems",
+    "Section 6: Simulating Simple Robot Arms in Virtual Sandbox"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 26,
+  "title": "ROS 2 Basics & Robot Operating System",
+  "instructor": "Jonas Schmedtmann",
+  "duration": "40 hours",
+  "rating": 4.9,
+  "level": "Intermediate",
+  "description": "Master the industry-standard software middleware used to build complex global robotic applications. Learn how to create custom nodes, handle pub/sub message communication, and manage secure data telemetry over micro-networks. Perfect for developers moving from hardware scripts to production-grade automation engineering.",
+  "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=600&auto=format&fit=crop",
+  "category": "Robotics",
+  "Learn": [
+    "Create custom ROS 2 nodes.",
+    "Manage secure message topic communications.",
+    "Build autonomous operational node networks.",
+    "Debug real-time robot hardware logs.",
+    "Configure custom robot telemetry variables."
+  ],
+  "Course-curriculam": [
+    "Section 1: ROS 2 Architecture and Installation Blueprint",
+    "Section 2: Core Concepts - Nodes, Topics, and Messages",
+    "Section 3: Implementing Services and Custom Actions",
+    "Section 4: Hardware Abstraction and Client Libraries (RCLCPP/RCLPY)",
+    "Section 5: Simulating Environments with Gazebo and RViz",
+    "Section 6: Designing a Complete Mobile Robot Controller"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 27,
+  "title": "Autonomous Navigation & SLAM Algorithms",
+  "instructor": "Maximilian Schwarzmüller",
+  "duration": "50 hours",
+  "rating": 4.7,
+  "level": "Advanced",
+  "description": "Teach mobile machines how to map unknown environments and navigate safely without human intervention. This advanced curriculum focuses heavily on Simultaneous Localization and Mapping (SLAM) principles, LiDAR sensor integration, and path-planning configurations. Build algorithms that safely bypass unexpected room obstacles.",
+  "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600&auto=format&fit=crop",
+  "category": "Robotics",
+  "Learn": [
+    "Implement core visual SLAM operations.",
+    "Integrate advanced hardware LiDAR sensors.",
+    "Generate precise spatial layout maps.",
+    "Optimize path-planning path traversal logic.",
+    "Configure dynamic obstacle avoidance loops."
+  ],
+  "Course-curriculam": [
+    "Section 1: Probability Foundations for Mobile Robots",
+    "Section 2: Sensor Fusion - Combining IMU and Odometry",
+    "Section 3: Mapping Architectures - Occupancy Grid Mapping",
+    "Section 4: SLAM Filter Algorithms - Extended Kalman Filters",
+    "Section 5: Path Planning Systems - A* and Dijkstra Controls",
+    "Section 6: Deploying Navigation Stacks on Physical Rovers"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 28,
+  "title": "Embedded Systems & Arduino Hardware Design",
+  "instructor": "Sarah Jenkins",
+  "duration": "30 hours",
+  "rating": 4.6,
+  "level": "Beginner",
+  "description": "Bridge the gap between raw programmatic logic and real physical electronics components. Learn how microcontrollers process electrical signals, decode raw sensor metrics, and drive servo mechanisms safely. This project-focused bootcamp teaches circuit designing basics alongside clean firmware coding standards.",
+  "image": "https://images.unsplash.com/photo-1553406830-ef2513450d76?q=80&w=600&auto=format&fit=crop",
+  "category": "Robotics",
+  "Learn": [
+    "Design safe prototype hardware circuits.",
+    "Write optimized hardware firmware loops.",
+    "Decode raw multi-sensor analog outputs.",
+    "Drive structural high-torque servo motors.",
+    "Implement serial micro-controller peripheral data."
+  ],
+  "Course-curriculam": [
+    "Section 1: Introduction to Electronics and Breadboarding",
+    "Section 2: Microcontroller Architecture - ATmega328 Explained",
+    "Section 3: C/C++ Firmware Coding Foundations for Hardware",
+    "Section 4: Interfacing Sensors - Ultrasonic, IR, and Gyroscopes",
+    "Section 5: Motor Drivers and Power Management Modules",
+    "Section 6: Final Project - Building an Obstacle Avoiding Car"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 29,
+  "title": "Robot Dynamics & Control Systems",
+  "instructor": "Brad Traversy",
+  "duration": "35 hours",
+  "rating": 4.8,
+  "level": "Intermediate",
+  "description": "Master the mathematical physics and structural loop feedback mechanisms that keep robots perfectly balanced. Learn to derive equations of motion using Lagrangian physics, optimize motor acceleration rates, and build robust PID control loops. Crucial for developers engineering bipedal walkers or drones.",
+  "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?q=80&w=600&auto=format&fit=crop",
+  "category": "Robotics",
+  "Learn": [
+    "Derive physical equations of motion.",
+    "Implement robust PID feedback controls.",
+    "Optimize multi-joint motor acceleration variables.",
+    "Stabilize erratic shifting bipedal balances.",
+    "Model torque constraint mechanical limits."
+  ],
+  "Course-curriculam": [
+    "Section 1: Rigid Body Dynamics & Newtonian Mechanics",
+    "Section 2: Lagrangian Formulation for Multi-Link Robots",
+    "Section 3: Open-Loop vs Closed-Loop Feedback Controls",
+    "Section 4: Tuning Proportional-Integral-Derivative (PID) Loops",
+    "Section 5: State-Space Representations & Linear Controllers",
+    "Section 6: Multi-Axis Stability Simulation and Verification"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=300&auto=format&fit=crop"
+},
+{
+  "id": 30,
+  "title": "Computer Vision for Cognitive Robotics",
+  "instructor": "David Malan",
+  "duration": "48 hours",
+  "rating": 4.9,
+  "level": "Advanced",
+  "description": "Equip your robot systems with the cognitive sight necessary to detect, analyze, and manipulate real-world physical target objects. This advanced guide combines OpenCV image processing streams with modern deep learning visual trackers inside robotic arms to perform automated pick-and-place tasks smoothly.",
+  "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?q=80&w=600&auto=format&fit=crop",
+  "category": "Robotics",
+  "Learn": [
+    "Calibrate spatial camera depth configurations.",
+    "Isolate target coordinates from images.",
+    "Train custom object-picking neural networks.",
+    "Implement real-time visual eye tracking.",
+    "Deploy high-speed frame manipulation pipelines."
+  ],
+  "Course-curriculam": [
+    "Section 1: Camera Calibration and Coordinate Systems Alignment",
+    "Section 2: Depth Sensing with Stereo Cameras and RGB-D",
+    "Section 3: Traditional Visual Markers - ArUco Tags Tracking",
+    "Section 4: Object Segmentation for Robotic Pick-and-Place",
+    "Section 5: Integrating Neural Network Detectors into ROS 2",
+    "Section 6: Closed-Loop Visual Servoing System Implementations"
+  ],
+  "instructorimage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop"
+}
+
+]
