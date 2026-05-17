@@ -62,7 +62,8 @@ const Navbar = () => {
             <Image 
               src={logo} 
               alt="SkillSphere Logo" 
-              fill
+              height={500}
+              width={300}
               className="object-cover group-hover:scale-105 transition-transform duration-300"
               priority
             />

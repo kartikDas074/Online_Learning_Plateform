@@ -7,6 +7,7 @@ import { FcGoogle } from 'react-icons/fc';
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import background from "../../../assets/background.jpg";
 import { Form } from "@heroui/react";
+import { authClient } from '@/lib/auth-client';
 const Signin = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [email, setEmail] = useState('');
@@ -15,10 +16,18 @@ const Signin = () => {
 
     const toggleVisibility = () => setIsVisible(!isVisible);
 
-    const handleEmailSignIn = (e) => {
+    const handleEmailSignIn = async (e) => {
         e.preventDefault();
-        
-        console.log("Signing in with:", email, password, "Remember:", rememberMe);
+        let form=e.target;
+        let formdata=new FormData(form);
+
+        const { data, error } = await authClient.signIn.email({
+       email: formdata.get('email'), // required
+         password: formdata.get('password'), // required
+    rememberMe: true,
+    callbackURL: "/",
+    });
+        console.log(data);
     };
 
     const handleGoogleSignIn = () => {
@@ -55,6 +64,7 @@ const Signin = () => {
         <Input
             required
             type="email"
+            name="email"
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -75,6 +85,7 @@ const Signin = () => {
             <Input
                 required
                 placeholder="Enter your password"
+                name="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 type={isVisible ? "text" : "password"}
