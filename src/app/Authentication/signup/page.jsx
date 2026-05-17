@@ -43,14 +43,15 @@ const Signup = () => {
     setImagePreview(null);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (e) => {
+  
     if (password !== confirmPassword) {
       alert("Passwords do not match!");
       return;
     }
+    
 
-    console.log("Form Submitted Successfully!");
+    
   };
 
   return (
@@ -79,7 +80,7 @@ const Signup = () => {
            Full Name
         </label>
           <Input
-            isRequired
+           required
             type="text"
             placeholder="Enter Your name"
             variant="bordered"
@@ -93,7 +94,7 @@ const Signup = () => {
             Email Address
         </label>
           <Input
-            isRequired
+            required
             type="email"
             placeholder="Email Address"
             variant="bordered"
@@ -156,7 +157,7 @@ const Signup = () => {
         
           <div className="relative w-full">
             <Input
-              isRequired
+              required
               placeholder="Enter a strong password"
               variant="bordered"
               value={password}
@@ -206,7 +207,7 @@ const Signup = () => {
             Confirm Password
         </label>
           <Input
-            isRequired
+            required
             placeholder="Confirm Password"
             variant="bordered"
             value={confirmPassword}
