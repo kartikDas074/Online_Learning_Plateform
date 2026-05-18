@@ -6,7 +6,7 @@ import { FaSearch } from 'react-icons/fa';
 
 
 export const CourseShow=  ({data}) => {
-    console.log(data);
+  
     return (
         <div>
             <div className="bg-neutral p-5 sm:p-6 rounded-2xl space-y-4 ">
@@ -38,7 +38,7 @@ export const CourseShow=  ({data}) => {
         {
             data.map(res=><PopularCourse key={res.id} Data={res}></PopularCourse>)
         }
-     </div>
+         </div>
         </div>
     
     );

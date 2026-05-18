@@ -16,7 +16,7 @@
       "Manage scalable database integration architectures.",
       "Create complex dynamic React components."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Frontend Web Development - HTML & CSS Essentials",
       "Section 2: Intermediate CSS - Layouts, Flexbox, and Responsive Design",
       "Section 3: Javascript Programming - Basics to Advanced DOM Manipulation",
@@ -43,7 +43,7 @@
       "Write type-safe scalable TypeScript code.",
       "Configure modern bundle compilation tools."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Deep Dive Into the JavaScript Engine & Execution",
       "Section 2: Advanced OOP, Prototypes, and Functional JS",
       "Section 3: Asynchronous JavaScript - Event Loop & Promises",
@@ -70,7 +70,7 @@
       "Integrate advanced stateless user authentication.",
       "Deploy scalable production builds globally."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: React Refresher & Next.js Core Philosophy",
       "Section 2: Routing Architecture - Pages vs Modern App Router",
       "Section 3: Data Fetching Paradigms - SSR, SSG, and ISR",
@@ -97,7 +97,7 @@
       "Customize structural layout theme configurations.",
       "Implement smooth clean dark-mode interfaces."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Modern CSS Layout Systems - Flexbox and CSS Grid Intro",
       "Section 2: Tailwind CSS Setup - CLI Configuration & CDN Integration",
       "Section 3: Core Concepts - Utilities, Dynamic Classes, and Hover States",
@@ -114,7 +114,7 @@
     "duration": "35 hours",
     "rating": 4.8,
     "level": "Intermediate",
-    "description": "Fulfill your dream of becoming a complete backend architecture engineer. You will learn node runtime mechanics, construct robust rest api routes, handle security authentication, and store data in cloud structures. By the end, you will confidently launch live web services onto production host networks.",
+    "description": "Fulfill your dream of becoming a complete backend architecture engineer. You will Learn node runtime mechanics, construct robust rest api routes, handle security authentication, and store data in cloud structures. By the end, you will confidently launch live web services onto production host networks.",
     "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=600&auto=format&fit=crop",
     "category": "Development",
     "Learn": [
@@ -124,7 +124,7 @@
       "Fix dangerous backend security vulnerabilities.",
       "Deploy working scripts onto clouds."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Server Framework Foundations - Node.js Event Loop Basics",
       "Section 2: Express.js Fundamentals - Middleware Functions & Routing",
       "Section 3: Database Integration - Setting Up Atlas MongoDB Connections",
@@ -151,7 +151,7 @@
       "Implement unsigned background media uploads.",
       "Build transactional email alert channels."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: SaaS Architecture Design - Scalable Repository Setups",
       "Section 2: Advanced State Controls - Redux Toolkit Enterprise Logic",
       "Section 3: Billing Integrations - Webhook Setup & Stripe Dashboards",
@@ -168,17 +168,17 @@
     "duration": "45 hours",
     "rating": 4.9,
     "level": "Beginner",
-    "description": "Supercharge your career by mastering foundational machine learning concepts. This course guides you step-by-step through regression models, clustering techniques, and statistical evaluation criteria. You will build and optimize production-ready pipelines using industry-standard Python libraries.",
+    "description": "Supercharge your career by mastering foundational machine Learning concepts. This course guides you step-by-step through regression models, clustering techniques, and statistical evaluation criteria. You will build and optimize production-ready pipelines using industry-standard Python libraries.",
     "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=600&auto=format&fit=crop",
     "category": "Artificial Intelligence",
     "Learn": [
-      "Master foundational supervised learning algorithms.",
+      "Master foundational supervised Learning algorithms.",
       "Implement advanced unsupervised clustering techniques.",
-      "Evaluate statistical machine learning models.",
+      "Evaluate statistical machine Learning models.",
       "Clean complex raw data pipelines.",
       "Deploy intelligent predictive software models."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Data Preprocessing & Statistical Operations",
       "Section 2: Supervised Learning - Regression Frameworks",
       "Section 3: Classification Models - Logistic and SVM",
@@ -205,7 +205,7 @@
       "Construct recurrent sequential memory models.",
       "Optimize complex structural neural weights."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Introduction to Artificial Neurons & Activation",
       "Section 2: Mathematical Foundations of Backpropagation",
       "Section 3: Computer Vision - Convolutional Neural Networks",
@@ -232,7 +232,7 @@
       "Build advanced language translation services.",
       "Implement neural semantic search algorithms."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Text Tokenization & Vector Embeddings Essentials",
       "Section 2: The Transformer Architecture - Attention Mechanisms",
       "Section 3: Classification and Named Entity Recognition",
@@ -259,7 +259,7 @@
       "Build autonomous software agent frameworks.",
       "Secure intelligent generative application outputs."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Generative AI Foundations & Model Overview",
       "Section 2: Prompt Engineering Techniques and Frameworks",
       "Section 3: Vector Databases - Pinecone and Milvus Integration",
@@ -286,7 +286,7 @@
       "Construct precise semantic image segmentations.",
       "Optimize camera frame processing speeds."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Classic Image Processing using OpenCV",
       "Section 2: Object Detection Foundations - Bounding Boxes",
       "Section 3: Realtime Detection Architectures - YOLO Masterclass",
@@ -303,7 +303,7 @@
     "duration": "50 hours",
     "rating": 4.8,
     "level": "Advanced",
-    "description": "Unlock the pinnacle of artificial decision-making architectures. Master reward-based system policies, explore deep Q-networks, and simulate synthetic environments where algorithms learn through repetitive trial and error. Ideal for developers wanting to construct smart game setups or trade networks.",
+    "description": "Unlock the pinnacle of artificial decision-making architectures. Master reward-based system policies, explore deep Q-networks, and simulate synthetic environments where algorithms Learn through repetitive trial and error. Ideal for developers wanting to construct smart game setups or trade networks.",
     "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=600&auto=format&fit=crop",
     "category": "Artificial Intelligence",
     "Learn": [
@@ -313,7 +313,7 @@
       "Simulate custom multi-agent virtual sandboxes.",
       "Train stable competitive gaming profiles."
     ],
-    "Course-curriculam": [
+    "Course_curriculam": [
       "Section 1: Markov Decision Processes & Core Concepts",
       "Section 2: Bellman Equations and Dynamic Programming",
       "Section 3: Model-Free Control - Q-Learning Essentials",
@@ -330,7 +330,7 @@
   "duration": "58 hours",
   "rating": 4.9,
   "level": "Intermediate",
-  "description": "Crack coding interviews at top tech companies by mastering algorithmic thinking. This course deep dives into complex concepts like dynamic programming, graph traversals, and segment trees. You will learn to optimize code performance and analyze exact time complexities with confidence.",
+  "description": "Crack coding interviews at top tech companies by mastering algorithmic thinking. This course deep dives into complex concepts like dynamic programming, graph traversals, and segment trees. You will Learn to optimize code performance and analyze exact time complexities with confidence.",
   "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=600&auto=format&fit=crop",
   "category": "Programming",
   "Learn": [
@@ -340,7 +340,7 @@
     "Optimize searching using segment trees.",
     "Solve competitive programming array challenges."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Asymptotic Notation & Time Complexity Analysis",
     "Section 2: Linear Data Structures - Stacks, Queues, and Linked Lists",
     "Section 3: Trees & Graphs - DFS, BFS, and Shortest Path Algorithms",
@@ -367,7 +367,7 @@
     "Implement rapid string matching algorithms.",
     "Debug complex logic errors quickly."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Number Theory - Sieve of Eratosthenes & GCD Mechanics",
     "Section 2: Bit Manipulation Tricks for High-Speed Execution",
     "Section 3: Advanced Trees - LCA, Heavy-Light Decomposition",
@@ -384,7 +384,7 @@
   "duration": "25 hours",
   "rating": 4.7,
   "level": "Intermediate",
-  "description": "Stop just writing code and start architecting highly scalable software platforms. This conceptual guide strictly teaches SOLID principles, structural design patterns, and industry-standard refactoring guidelines. You will learn how to turn messy script repositories into beautiful, production-grade systems.",
+  "description": "Stop just writing code and start architecting highly scalable software platforms. This conceptual guide strictly teaches SOLID principles, structural design patterns, and industry-standard refactoring guidelines. You will Learn how to turn messy script repositories into beautiful, production-grade systems.",
    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop",
   "category": "Programming",
   "Learn": [
@@ -394,7 +394,7 @@
     "Write highly decoupled modular software.",
     "Implement clean meaningful code naming."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: The Cost of Messy Code & Technical Debt",
     "Section 2: Breaking Down SOLID Principles with Real Examples",
     "Section 3: Creational Design Patterns - Singleton and Factory",
@@ -421,7 +421,7 @@
     "Optimize compiled software execution layouts.",
     "Write complex custom template classes."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Modern C++ Standards Overview (C++20/23)",
     "Section 2: Memory Architecture - Stack vs Heap Mechanics",
     "Section 3: RAII Philosophy & Smart Pointers (Unique, Shared)",
@@ -438,7 +438,7 @@
   "duration": "35 hours",
   "rating": 4.6,
   "level": "Beginner",
-  "description": "Unlock the incredible power of the world's most versatile language runtime environments. Master basic conditional script structures, learn file processing mechanics, and design custom object classes. This complete masterclass includes multiple capstone projects preparing you directly for automation careers.",
+  "description": "Unlock the incredible power of the world's most versatile language runtime environments. Master basic conditional script structures, Learn file processing mechanics, and design custom object classes. This complete masterclass includes multiple capstone projects preparing you directly for automation careers.",
   "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=600&auto=format&fit=crop",
   "category": "Programming",
   "Learn": [
@@ -448,7 +448,7 @@
     "Create custom functional utility scripts.",
     "Manage virtual software runtime packages."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Python Setup & Core Syntax Foundations",
     "Section 2: Control Flow, Loops, and Complex Functions",
     "Section 3: Object-Oriented Programming (OOP) in Python",
@@ -475,7 +475,7 @@
     "Mitigate complex network single failures.",
     "Partition massive relational database volumes."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Foundations of Scalability - Vertical vs Horizontal",
     "Section 2: Load Balancers & Reverse Proxies Configuration",
     "Section 3: Caching Strategies - Redis & Memcached Architectural Patterns",
@@ -501,7 +501,7 @@
     "Apply mathematical induction validation methods.",
     "Solve modular arithmetic cryptography challenges."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Propositional Logic, Predicates, and Quantifiers",
     "Section 2: Methods of Proof - Direct, Contradiction, and Induction",
     "Section 3: Set Theory, Relations, and Advanced Functions",
@@ -518,7 +518,7 @@
   "duration": "38 hours",
   "rating": 4.8,
   "level": "Intermediate",
-  "description": "Unlock the core statistical mechanics that drive modern artificial intelligence and machine learning architectures. Learn how to compute conditional probabilities, model random variables, and implement Bayesian inference rules safely. Essential for developers wanting to understand data distributions and building predictive models.",
+  "description": "Unlock the core statistical mechanics that drive modern artificial intelligence and machine Learning architectures. Learn how to compute conditional probabilities, model random variables, and implement Bayesian inference rules safely. Essential for developers wanting to understand data distributions and building predictive models.",
   "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
   "category": "Mathematics",
   "Learn": [
@@ -528,7 +528,7 @@
     "Analyze foundational statistical data distributions.",
     "Implement core hypothesis testing algorithms."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Probability Spaces, Sample Spaces, and Counting",
     "Section 2: Conditional Probability and Bayes' Theorem Core Mechanics",
     "Section 3: Random Variables - Expectation, Variance, and Moments",
@@ -545,7 +545,7 @@
   "duration": "42 hours",
   "rating": 4.9,
   "level": "Intermediate",
-  "description": "Deep dive into the matrix mathematics that fuels computer graphics, game engines, and neural network transformations. Master vector spaces, eigenvalues, eigenvectors, and singular value decomposition algorithms. You will learn to manipulate high-dimensional data spaces and optimize structural transformations efficiently.",
+  "description": "Deep dive into the matrix mathematics that fuels computer graphics, game engines, and neural network transformations. Master vector spaces, eigenvalues, eigenvectors, and singular value decomposition algorithms. You will Learn to manipulate high-dimensional data spaces and optimize structural transformations efficiently.",
   "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop",
   "category": "Mathematics",
   "Learn": [
@@ -555,7 +555,7 @@
     "Apply singular value decomposition matrixes.",
     "Optimize data projections using linearities."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Systems of Linear Equations & Gaussian Elimination",
     "Section 2: Vector Spaces, Subspaces, and Basis Dimensions",
     "Section 3: Linear Transformations and Matrix Representations",
@@ -582,7 +582,7 @@
     "Structure precise GitHub pull requests.",
     "Conduct confident client interview negotiations."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Professional Writing - Emails, Slack Etiquette, and Reports",
     "Section 2: Technical Writing - Clear Documentation & Markdown Standards",
     "Section 3: Mastering GitHub Communication - Issues, PRs, and Code Reviews",
@@ -609,7 +609,7 @@
     "Answer tough technical audience questions.",
     "Structure compelling product startup pitches."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Audience Analysis - Speaking to Tech vs Non-Tech People",
     "Section 2: Storytelling in Tech - Structuring Your Engineering Narrative",
     "Section 3: Slide Design Patterns for Clean Software Presentations",
@@ -636,7 +636,7 @@
     "Format precise citation bibliographies correctly.",
     "Avoid common formal grammatical errors."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Anatomy of a Computer Science Research Paper",
     "Section 2: Academic Vocabulary, Formal Tone, and Sentence Structures",
     "Section 3: Writing a Comprehensive Literature Review Matrix",
@@ -653,7 +653,7 @@
   "duration": "45 hours",
   "rating": 4.8,
   "level": "Beginner",
-  "description": "Explore the foundational mechanics behind designing and programming physical robot systems. This introductory course covers forward and inverse kinematics, coordinate transformations, and basic actuator controls. You will learn to mathematically model mechanical joints and simulate their movements accurately.",
+  "description": "Explore the foundational mechanics behind designing and programming physical robot systems. This introductory course covers forward and inverse kinematics, coordinate transformations, and basic actuator controls. You will Learn to mathematically model mechanical joints and simulate their movements accurately.",
   "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=600&auto=format&fit=crop",
   "category": "Robotics",
   "Learn": [
@@ -663,7 +663,7 @@
     "Simulate mechanical spatial limb trajectories.",
     "Analyze structural robot design configurations."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Introduction to Robotics Frameworks & History",
     "Section 2: Spatial Descriptions and Coordinate Transformations",
     "Section 3: Forward Kinematics - Link Equations and Matrices",
@@ -690,7 +690,7 @@
     "Debug real-time robot hardware logs.",
     "Configure custom robot telemetry variables."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: ROS 2 Architecture and Installation Blueprint",
     "Section 2: Core Concepts - Nodes, Topics, and Messages",
     "Section 3: Implementing Services and Custom Actions",
@@ -717,7 +717,7 @@
     "Optimize path-planning path traversal logic.",
     "Configure dynamic obstacle avoidance loops."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Probability Foundations for Mobile Robots",
     "Section 2: Sensor Fusion - Combining IMU and Odometry",
     "Section 3: Mapping Architectures - Occupancy Grid Mapping",
@@ -744,7 +744,7 @@
     "Drive structural high-torque servo motors.",
     "Implement serial micro-controller peripheral data."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Introduction to Electronics and Breadboarding",
     "Section 2: Microcontroller Architecture - ATmega328 Explained",
     "Section 3: C/C++ Firmware Coding Foundations for Hardware",
@@ -771,7 +771,7 @@
     "Stabilize erratic shifting bipedal balances.",
     "Model torque constraint mechanical limits."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Rigid Body Dynamics & Newtonian Mechanics",
     "Section 2: Lagrangian Formulation for Multi-Link Robots",
     "Section 3: Open-Loop vs Closed-Loop Feedback Controls",
@@ -788,7 +788,7 @@
   "duration": "48 hours",
   "rating": 4.9,
   "level": "Advanced",
-  "description": "Equip your robot systems with the cognitive sight necessary to detect, analyze, and manipulate real-world physical target objects. This advanced guide combines OpenCV image processing streams with modern deep learning visual trackers inside robotic arms to perform automated pick-and-place tasks smoothly.",
+  "description": "Equip your robot systems with the cognitive sight necessary to detect, analyze, and manipulate real-world physical target objects. This advanced guide combines OpenCV image processing streams with modern deep Learning visual trackers inside robotic arms to perform automated pick-and-place tasks smoothly.",
   "image": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?q=80&w=600&auto=format&fit=crop",
   "category": "Robotics",
   "Learn": [
@@ -798,7 +798,7 @@
     "Implement real-time visual eye tracking.",
     "Deploy high-speed frame manipulation pipelines."
   ],
-  "Course-curriculam": [
+  "Course_curriculam": [
     "Section 1: Camera Calibration and Coordinate Systems Alignment",
     "Section 2: Depth Sensing with Stereo Cameras and RGB-D",
     "Section 3: Traditional Visual Markers - ArUco Tags Tracking",

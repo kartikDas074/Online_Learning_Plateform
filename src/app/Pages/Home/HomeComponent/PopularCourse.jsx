@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const PopularCourse = ({ Data }) => {
-    const { image, title, instructorimage, instructor, rating, category } = Data;
+    const { id,image, title, instructorimage, instructor, rating, category } = Data;
     return (
         <div className="bg-white/40 backdrop-blur-md rounded-2xl border border-white/20 shadow-sm hover:shadow-xl hover:bg-white/60 transition-all duration-300 overflow-hidden flex flex-col h-full group">
             <div className="relative h-52 w-full overflow-hidden bg-gray-50/50">
@@ -50,10 +50,12 @@ const PopularCourse = ({ Data }) => {
                         <span className="text-amber-500 text-sm">⭐</span>
                         <span className="text-sm font-bold text-gray-800">{rating}</span>
                     </div>
-                   
-                    <button className="flex-1 py-2.5 bg-orange-600 hover:bg-orange-700 text-white font-semibold text-sm rounded-xl transition-colors duration-200 text-center shadow-md shadow-orange-600/10">
+                   <Link href={`/Pages/courses/CourseDetail/${id}`} className="flex-1 py-2.5 bg-orange-600 hover:bg-orange-700 text-white font-semibold text-sm rounded-xl transition-colors duration-200 text-center shadow-md shadow-orange-600/10">
+                   <button >
                         View Details
                     </button>
+                   </Link>
+                    
                     
                 </div>
             </div>

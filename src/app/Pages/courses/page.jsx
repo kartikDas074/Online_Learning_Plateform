@@ -1,7 +1,6 @@
 import { FeatchCourse } from "@/app/CommonFunction.js/FeatchAll";
 import React from "react";
-import { FaSearch, FaBookOpen } from "react-icons/fa";
-import PopularCourse from "../Home/HomeComponent/PopularCourse";
+import { FaBookOpen } from "react-icons/fa";
 import CourseShow from "./CourseComponent/CourseShow";
 
 const Coursepage = async () => {
