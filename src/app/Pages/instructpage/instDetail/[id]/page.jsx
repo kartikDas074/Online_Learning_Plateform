@@ -121,23 +121,21 @@ const page = async ({ params }) => {
               
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 rounded-xl bg-base-200/60 px-4 py-3">
-                    <div className="mt-1 h-2.5 w-2.5 rounded-full bg-primary shrink-0"></div>
-
+                   
                     <p className="text-sm font-medium text-base-content/80">
                       Project Based Learning
                     </p>
                   </li>
 
                   <li className="flex items-start gap-3 rounded-xl bg-base-200/60 px-4 py-3">
-                    <div className="mt-1 h-2.5 w-2.5 rounded-full bg-success shrink-0"></div>
-
+                    
                     <p className="text-sm font-medium text-base-content/80">
                       Real-time Practical Examples
                     </p>
                   </li>
 
                   <li className="flex items-start gap-3 rounded-xl bg-base-200/60 px-4 py-3">
-                    <div className="mt-1 h-2.5 w-2.5 rounded-full bg-warning shrink-0"></div>
+                    
 
                     <p className="text-sm font-medium leading-6 text-base-content/80">
                       Complete Degree From International University
