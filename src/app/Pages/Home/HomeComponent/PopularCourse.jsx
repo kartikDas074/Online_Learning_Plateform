@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const PopularCourse = ({ Data }) => {
@@ -49,10 +50,11 @@ const PopularCourse = ({ Data }) => {
                         <span className="text-amber-500 text-sm">⭐</span>
                         <span className="text-sm font-bold text-gray-800">{rating}</span>
                     </div>
-                    
+                   
                     <button className="flex-1 py-2.5 bg-orange-600 hover:bg-orange-700 text-white font-semibold text-sm rounded-xl transition-colors duration-200 text-center shadow-md shadow-orange-600/10">
                         View Details
                     </button>
+                    
                 </div>
             </div>
         </div>

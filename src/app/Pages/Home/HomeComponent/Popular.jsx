@@ -8,7 +8,7 @@ const Popular = async () => {
     let Course = sortedCourses.slice(0, 3);
     
     return (
-        <div className="bg-neutral-300 py-16 px-4 md:px-8 lg:px-16 w-full">
+        <div className="bg-gray-50 py-16 px-4 md:px-8 lg:px-16 w-full">
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col items-center mb-12 text-center">
                     <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
