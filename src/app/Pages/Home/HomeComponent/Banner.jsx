@@ -4,8 +4,8 @@ import background from '../../../../assets/Baner.png';
 const Banner = () => {
     return (
         <div 
-            className="min-h-[500px] md:min-h-[600px] flex items-center bg-cover bg-contain bg-center bg-no-repeat px-6 py-12 md:px-16"
-            style={{ backgroundImage: `url(${background.src || background})` }}
+            className="min-h-[500px] md:min-h-[600px] flex items-center bg-contain bg-center bg-no-repeat px-6 py-12 md:px-16"
+            style={{ backgroundImage: `url(${background.src || background})`,backgroundSize: '100% 100%' }}
         >
             <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 
@@ -34,12 +34,7 @@ const Banner = () => {
                         </Link>
                     </div>
 
-                    <div className="flex items-center gap-2 pt-4">
-                        <span className="w-2.5 h-2.5 rounded-full bg-orange-600"></span>
-                        <span className="w-2.5 h-2.5 rounded-full bg-gray-300"></span>
-                        <span className="w-2.5 h-2.5 rounded-full bg-gray-300"></span>
-                        <span className="w-2.5 h-2.5 rounded-full bg-gray-300"></span>
-                    </div>
+                   
                 </div>
 
                 <div className="relative w-full h-[350px] md:h-[450px] flex items-center justify-center">

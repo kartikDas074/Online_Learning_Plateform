@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navlink from "./Navlink";
 import { Button } from "@heroui/react";
 import logo from '../assets/logo.jpg';
-
+import background from '../assets/background.jpg'
 const Navbar = () => {
  
   const links = (
@@ -19,7 +19,9 @@ const Navbar = () => {
         </Navlink>
       </li>
       <li>
-        <Navlink href={'/Pages/myprofile'} className="font-medium hover:text-primary transition-colors py-2 px-4 rounded-lg">
+        <Navlink href={'/Pages/myprofile'} className="font-medium hover:text-primary transition-colors py-2 px-4 rounded-lg" 
+         
+        >
           Profile
         </Navlink>
       </li>
@@ -27,7 +29,9 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-white/90 backdrop-blur-md sticky top-0 z-50 px-4 md:px-8 border-b border-gray-100 shadow-sm">
+    <div className="navbar bg-gray-300 backdrop-blur-md sticky top-0 z-50 px-4 md:px-8 border-b border-gray-100 shadow-sm "
+    
+    >
       
 
       <div className="navbar-start">
