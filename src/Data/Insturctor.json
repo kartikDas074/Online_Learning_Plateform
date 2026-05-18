@@ -1,5 +1,5 @@
 [
-    {
+  {
   "id": 1,
   "name": "Dr. Angela Yu",
   "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop",
@@ -10,7 +10,7 @@
   ],
   "Institution": "London App Brewery",
   "Rating": 4.8,
-  "Inspirational-Quota": "Programming isn't about what you know; it's about what you can figure out. Every error message is just a hidden clue waiting to be solved. Don't let a broken line of code break your spirit. Keep building, keep breaking, and eventually, you will create something beautiful that changes the world."
+  "Inspirational_Quota": "Programming isn't about what you know; it's about what you can figure out. Every error message is just a hidden clue waiting to be solved. Don't let a broken line of code break your spirit. Keep building, keep breaking, and eventually, you will create something beautiful that changes the world."
 },
 {
   "id": 2,
@@ -23,7 +23,7 @@
   ],
   "Institution": "Technical University of Munich",
   "Rating": 4.9,
-  "Inspirational-Quota": "The best way to master any complex technology is to understand its core inner mechanics deeply. Never satisfy yourself with just making things work on the surface; ask why they work. True engineering excellence lies in the details. Code with passion, embrace the confusion, and let your curiosity guide your logical path."
+  "Inspirational_Quota": "The best way to master any complex technology is to understand its core inner mechanics deeply. Never satisfy yourself with just making things work on the surface; ask why they work. True engineering excellence lies in the details. Code with passion, embrace the confusion, and let your curiosity guide your logical path."
 },
 {
   "id": 3,
@@ -36,7 +36,7 @@
   ],
   "Institution": "Stanford University",
   "Rating": 4.9,
-  "Inspirational-Quota": "Artificial Intelligence is the new electricity, and it has the power to transform every single sector of human life. Your journey into data science is a marathon, not a sprint. Do not worry if the mathematics feels overwhelming right now. Just focus on consistent learning every day, and you will eventually build systems that solve real human challenges."
+  "Inspirational_Quota": "Artificial Intelligence is the new electricity, and it has the power to transform every single sector of human life. Your journey into data science is a marathon, not a sprint. Do not worry if the mathematics feels overwhelming right now. Just focus on consistent learning every day, and you will eventually build systems that solve real human challenges."
 },
 {
   "id": 4,
@@ -49,7 +49,7 @@
   ],
   "Institution": "Osmania University",
   "Rating": 4.9,
-  "Inspirational-Quota": "Do not memorize algorithms; master the core patterns behind them. Once you understand how to break down a massive complex problem into smaller logical steps, any coding interview or contest challenge becomes easy. Algorithms are the pure language of logic. Train your mind to think efficiently, optimize your steps, and success will follow naturally."
+  "Inspirational_Quota": "Do not memorize algorithms; master the core patterns behind them. Once you understand how to break down a massive complex problem into smaller logical steps, any coding interview or contest challenge becomes easy. Algorithms are the pure language of logic. Train your mind to think efficiently, optimize your steps, and success will follow naturally."
 },
 {
   "id": 5,
@@ -62,7 +62,7 @@
   ],
   "Institution": "Massachusetts Institute of Technology",
   "Rating": 4.9,
-  "Inspirational-Quota": "Mathematics is not a collection of dry formulas to memorize; it is the ultimate tool to see the underlying structure of our world. Vectors and matrices are the literal building blocks of modern computer graphics and intelligence networks. When you understand the linear transformations happening under the hood, you unlock true computer science mastery."
+  "Inspirational_Quota": "Mathematics is not a collection of dry formulas to memorize; it is the ultimate tool to see the underlying structure of our world. Vectors and matrices are the literal building blocks of modern computer graphics and intelligence networks. When you understand the linear transformations happening under the hood, you unlock true computer science mastery."
 },
 {
   "id": 6,
@@ -75,7 +75,7 @@
   ],
   "Institution": "Cambridge English Language Assessment",
   "Rating": 4.7,
-  "Inspirational-Quota": "Your brilliant code loses its value if you cannot explain its architecture simply to the world. Communication is the ultimate bridge that connects high-quality engineering to global business success. Master the art of articulation, write clean documentation, and pitch your ideas with absolute clarity. A great developer is always a great communicator first."
+  "Inspirational_Quota": "Your brilliant code loses its value if you cannot explain its architecture simply to the world. Communication is the ultimate bridge that connects high-quality engineering to global business success. Master the art of articulation, write clean documentation, and pitch your ideas with absolute clarity. A great developer is always a great communicator first."
 },
 {
   "id": 7,
@@ -88,12 +88,12 @@
   ],
   "Institution": "The Linux Foundation",
   "Rating": 4.9,
-  "Inspirational-Quota": "Talk is cheap. Show me the code. Software engineering is not about complex theories or corporate buzzwords; it is about building practical systems that work flawlessly under pressure. Do not make excuses for poorly written architecture. Write clean, efficient code, document your steps, and respect the open-source community."
+  "Inspirational_Quota": "Talk is cheap. Show me the code. Software engineering is not about complex theories or corporate buzzwords; it is about building practical systems that work flawlessly under pressure. Do not make excuses for poorly written architecture. Write clean, efficient code, document your steps, and respect the open-source community."
 },
 {
   "id": 8,
   "name": "Dr. David J. Malan",
-  "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=300&auto=format&fit=crop",
+  "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop",
   "Expertise": [
     "Computer Science Foundations",
     "C & Python Programming",
@@ -101,7 +101,7 @@
   ],
   "Institution": "Harvard University (CS50)",
   "Rating": 4.9,
-  "Inspirational-Quota": "What ultimately matters in this course is not where you end up relative to your peers, but where you end up relative to yourself. Computer science is a way of thinking, a journey of problem-solving. Embrace the struggle of debugging, celebrate the small logical victories, and never forget that every master was once an absolute beginner."
+  "Inspirational_Quota": "What ultimately matters in this course is not where you end up relative to your peers, but where you end up relative to yourself. Computer science is a way of thinking, a journey of problem-solving. Embrace the struggle of debugging, celebrate the small logical victories, and never forget that every master was once an absolute beginner."
 },
 {
   "id": 9,
@@ -114,7 +114,7 @@
   ],
   "Institution": "Netlify / Vue.js Core Team",
   "Rating": 4.8,
-  "Inspirational-Quota": "The user interface is the literal bridge between your backend logic and human emotion. Never build interfaces that look robotic or frustrating to navigate. Master the subtleties of layouts, responsiveness, and fluid user experiences. A truly skilled developer treats CSS and design structures with the exact same engineering rigor as databases."
+  "Inspirational_Quota": "The user interface is the literal bridge between your backend logic and human emotion. Never build interfaces that look robotic or frustrating to navigate. Master the subtleties of layouts, responsiveness, and fluid user experiences. A truly skilled developer treats CSS and design structures with the exact same engineering rigor as databases."
 },
 {
   "id": 10,
@@ -127,7 +127,7 @@
   ],
   "Institution": "Columbia University / Stanford",
   "Rating": 4.9,
-  "Inspirational-Quota": "Algorithms are the absolute mathematical poetry of computer science. When you design an efficient solution, you are not just writing code; you are discovering an optimal pathway through a massive matrix of possibilities. Train your mind to spot recurrence relations and complex graph constraints. Mathematical clarity always precedes clean execution."
+  "Inspirational_Quota": "Algorithms are the absolute mathematical poetry of computer science. When you design an efficient solution, you are not just writing code; you are discovering an optimal pathway through a massive matrix of possibilities. Train your mind to spot recurrence relations and complex graph constraints. Mathematical clarity always precedes clean execution."
 },
 {
   "id": 11,
@@ -140,7 +140,7 @@
   ],
   "Institution": "CareerCup / Ex-Google & Apple Engineer",
   "Rating": 4.8,
-  "Inspirational-Quota": "Tech interviews and competitive platforms do not test how many functions you have memorized; they test your analytical stamina. When faced with an unfamiliar data structure problem, communicate your thought process out loud. Break down the constraints step-by-step. Resilience and structured logical scaling will always beat raw memorization."
+  "Inspirational_Quota": "Tech interviews and competitive platforms do not test how many functions you have memorized; they test your analytical stamina. When faced with an unfamiliar data structure problem, communicate your thought process out loud. Break down the constraints step-by-step. Resilience and structured logical scaling will always beat raw memorization."
 },
 {
   "id": 12,
@@ -153,6 +153,6 @@
   ],
   "Institution": "UC Berkeley / OpenAI",
   "Rating": 4.9,
-  "Inspirational-Quota": "Teaching physical machines to perceive environments and adapt through continuous trial and error is the absolute frontier of engineering. Do not let complex feedback control loops or sensor calibration errors discourage you. Robotics is a beautiful intersection of code, physics, and hardware geometry. Keep testing your models, embrace failures, and build the future."
+  "Inspirational_Quota": "Teaching physical machines to perceive environments and adapt through continuous trial and error is the absolute frontier of engineering. Do not let complex feedback control loops or sensor calibration errors discourage you. Robotics is a beautiful intersection of code, physics, and hardware geometry. Keep testing your models, embrace failures, and build the future."
 }
 ]

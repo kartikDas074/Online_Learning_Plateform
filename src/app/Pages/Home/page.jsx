@@ -3,6 +3,8 @@ import Banner from "./HomeComponent/Banner";
 import Choose from "./HomeComponent/Choose";
 import LearningTips from "./HomeComponent/LearningTips";
 import Popular from "./HomeComponent/Popular";
+import { Surface } from "./HomeComponent/Faq";
+import Instructor from "./HomeComponent/Instructor";
 
 const Homepage = () => {
     return (
@@ -11,7 +13,9 @@ const Homepage = () => {
            <Popular></Popular>
            <Choose></Choose>
            <LearningTips></LearningTips>
+           <Instructor></Instructor>
            <SponsorMarquee></SponsorMarquee>
+           <Surface></Surface>
         </div>
     );
 };
