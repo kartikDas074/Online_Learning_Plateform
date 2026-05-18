@@ -56,10 +56,10 @@ const SponsorMarquee = () => {
         <div className="relative">
 
         
-          <div className="absolute left-0 top-0 z-20 h-full w-24 bg-gradient-to-r from-white dark:from-black to-transparent pointer-events-none" />
+         
 
          
-          <div className="absolute right-0 top-0 z-20 h-full w-24 bg-gradient-to-l from-white dark:from-black to-transparent pointer-events-none" />
+        
 
           <div className="rounded-3xl border border-gray-200/60 dark:border-zinc-800 bg-white/70 dark:bg-zinc-900/40 backdrop-blur-2xl shadow-[0_10px_60px_rgba(0,0,0,0.08)] dark:shadow-[0_10px_60px_rgba(99,102,241,0.08)] py-10 overflow-hidden">
 
@@ -76,7 +76,7 @@ const SponsorMarquee = () => {
                     className="group relative flex items-center justify-center min-w-[140px] h-[90px] rounded-2xl border border-gray-200 dark:border-zinc-800 bg-white/80 dark:bg-zinc-900/70 hover:bg-white dark:hover:bg-zinc-900 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-indigo-500/10"
                   >
                     
-                    {/* Hover Glow */}
+                 
                     <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-indigo-500/0 via-purple-500/0 to-pink-500/0 group-hover:from-indigo-500/10 group-hover:via-purple-500/10 group-hover:to-pink-500/10 transition-all duration-500" />
 
                     <div className="relative w-24 h-12 md:w-28 md:h-14 transition-all duration-300">
