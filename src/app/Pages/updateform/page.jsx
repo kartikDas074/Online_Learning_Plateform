@@ -14,9 +14,7 @@ const UpdateProfile = () => {
   const [imagePreview, setImagePreview] = useState("");
   const [isUpdating, setIsUpdating] = useState(false);
 
-  // =========================
-  // SESSION DATA LOAD
-  // =========================
+
   useEffect(() => {
     if (session?.user) {
       setName(session.user.name || "");

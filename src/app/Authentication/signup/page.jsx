@@ -106,7 +106,7 @@ const Signup = () => {
     email: formData.get("email"),
     password: formData.get("password"),
     image: `${image}`,
-    callbackURL: "/Authentication/signin",
+    callbackURL: "/",
    });
 //    console.log(data);
     if (error) {
@@ -118,6 +118,11 @@ const Signup = () => {
    
     router.push("/Authentication/signin");
   };
+  const handleGoogleSignIn = async () => {
+        const data = await authClient.signIn.social({
+         provider: "google",
+        });
+      };
 
   return (
     <div
@@ -356,8 +361,9 @@ const Signup = () => {
           <div className="flex-grow border-t border-white/30"></div>
         </div>
 
-        <div className="w-full">
+        <div  className="w-full">
           <Button
+          onClick={handleGoogleSignIn}
             variant="bordered"
             className="w-full h-11 flex items-center justify-center gap-2 font-bold rounded-xl border-white/40 bg-white/40 hover:bg-white/60 text-slate-900 backdrop-blur-sm transition-all shadow-sm"
           >
