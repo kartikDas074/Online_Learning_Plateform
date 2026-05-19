@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react'; // Suspense ইম্পোর্ট করা হয়েছে
 import Link from 'next/link';
 import { Input, Button } from '@heroui/react'; 
 import { FcGoogle } from 'react-icons/fc';
@@ -10,7 +10,9 @@ import { Form } from "@heroui/react";
 import { authClient } from '@/lib/auth-client';
 import { toast } from 'react-toastify';
 import { useSearchParams } from 'next/navigation';
-const Signin = () => {
+
+// ১. মূল সাইন-ইন ফর্মের ভেতরের অংশ আলাদা কম্পোনেন্ট হিসেবে থাকবে
+const SigninFormContent = () => {
     const searchParams = useSearchParams();
 
     const callbackUrl = searchParams.get("callbackUrl") || "/";
@@ -28,20 +30,19 @@ const Signin = () => {
         let formdata=new FormData(form);
 
         const { data, error } = await authClient.signIn.email({
-       email: formdata.get('email'), // required
-         password: formdata.get('password'), // required
-    rememberMe: true,
-    callbackURL:callbackUrl,
-    });
-        // console.log(data); 
-         if (error) {
-              toast.error(error.message || "Signin failed!");
-              return;
-            }
+            email: formdata.get('email'), // required
+            password: formdata.get('password'), // required
+            rememberMe: true,
+            callbackURL:callbackUrl,
+        });
+        
+        if (error) {
+            toast.error(error.message || "Signin failed!");
+            return;
+        }
     };
 
     const handleGoogleSignIn = () => {
-       
         console.log("Google Sign In Triggered");
     };
 
@@ -66,90 +67,90 @@ const Signin = () => {
                 <Form onSubmit={handleEmailSignIn} className="flex flex-col gap-5 w-full">
 
    
-    <div className="w-full">
-        <label className="block text-sm font-semibold text-slate-900 mb-2">
-            Email Address
-        </label>
+                    <div className="w-full">
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">
+                            Email Address
+                        </label>
 
-        <Input
-            required
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            variant="bordered"
-            className="w-full"
-        />
-    </div>
+                        <Input
+                            required
+                            type="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            variant="bordered"
+                            className="w-full"
+                        />
+                    </div>
 
    
-    <div className="w-full">
+                    <div className="w-full">
 
-        <label className="block text-sm font-semibold text-slate-900 mb-2">
-            Password
-        </label>
+                        <label className="block text-sm font-semibold text-slate-900 mb-2">
+                            Password
+                        </label>
 
-        <div className="relative">
+                        <div className="relative">
 
-            <Input
-                required
-                placeholder="Enter your password"
-                name="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                type={isVisible ? "text" : "password"}
-                variant="bordered"
-                className="w-full"
-            />
+                            <Input
+                                required
+                                placeholder="Enter your password"
+                                name="password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                type={isVisible ? "text" : "password"}
+                                variant="bordered"
+                                className="w-full"
+                            />
 
-           
-            <button
-                type="button"
-                onClick={toggleVisibility}
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-700"
-            >
-                {isVisible ? (
-                    <FaEyeSlash className="text-lg" />
-                ) : (
-                    <FaEye className="text-lg" />
-                )}
-            </button>
+                           
+                            <button
+                                type="button"
+                                onClick={toggleVisibility}
+                                className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-700"
+                            >
+                                {isVisible ? (
+                                    <FaEyeSlash className="text-lg" />
+                                ) : (
+                                    <FaEye className="text-lg" />
+                                )}
+                            </button>
 
-        </div>
-    </div>
-
-    
-    <div className="flex items-center justify-between w-full text-xs font-semibold text-slate-900 mt-1">
-
-        <label className="flex items-center gap-2 cursor-pointer select-none">
-            <input
-                type="checkbox"
-                checked={rememberMe}
-                onChange={(e) => setRememberMe(e.target.checked)}
-                className="w-4 h-4 cursor-pointer"
-            />
-
-            Remember me
-        </label>
-
-        <Link
-            href="/Authentication/forgot-password"
-            className="hover:underline text-indigo-950"
-        >
-            Forgot Password?
-        </Link>
-    </div>
+                        </div>
+                    </div>
 
     
-    <Button
-        type="submit"
-        className="w-full font-bold bg-slate-900 text-white rounded-xl shadow-lg hover:bg-slate-800 mt-2 h-11 transition-all duration-300 active:scale-[0.98]"
-    >
-        Sign In
-    </Button>
+                    <div className="flex items-center justify-between w-full text-xs font-semibold text-slate-900 mt-1">
 
-</Form>
+                        <label className="flex items-center gap-2 cursor-pointer select-none">
+                            <input
+                                type="checkbox"
+                                checked={rememberMe}
+                                onChange={(e) => setRememberMe(e.target.checked)}
+                                className="w-4 h-4 cursor-pointer"
+                            />
+
+                            Remember me
+                        </label>
+
+                        <Link
+                            href="/Authentication/forgot-password"
+                            className="hover:underline text-indigo-950"
+                        >
+                            Forgot Password?
+                        </Link>
+                    </div>
+
+    
+                    <Button
+                        type="submit"
+                        className="w-full font-bold bg-slate-900 text-white rounded-xl shadow-lg hover:bg-slate-800 mt-2 h-11 transition-all duration-300 active:scale-[0.98]"
+                    >
+                        Sign In
+                    </Button>
+
+                </Form>
 
                
                 <div className="flex items-center my-6">
@@ -180,6 +181,19 @@ const Signin = () => {
 
             </div>
         </div>
+    );
+};
+
+
+const Signin = () => {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen w-full flex items-center justify-center bg-slate-900 text-white font-semibold text-lg">
+                Loading Sign In...
+            </div>
+        }>
+            <SigninFormContent />
+        </Suspense>
     );
 };
 
