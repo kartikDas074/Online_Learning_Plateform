@@ -1,12 +1,12 @@
-import dns from 'node:dns'
-dns.setServers(['8.8.8.8','8.8.4.4']);
+import dns from "dns"; 
+dns.setDefaultResultOrder("ipv4first")
 
 import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 
 const client = new MongoClient(process.env.AUTH_DBI);
-const db = client.db();
+const db = client.db('OnlineLearning');
 export const auth = betterAuth({
      emailAndPassword: { 
     enabled: true, 
