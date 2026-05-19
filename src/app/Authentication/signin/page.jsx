@@ -42,8 +42,10 @@ const SigninFormContent = () => {
         }
     };
 
-    const handleGoogleSignIn = () => {
-        console.log("Google Sign In Triggered");
+    const handleGoogleSignIn = async () => {
+      const data = await authClient.signIn.social({
+       provider: "google",
+      });
     };
 
     return (

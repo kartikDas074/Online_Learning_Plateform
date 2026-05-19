@@ -4,7 +4,6 @@ import Image from "next/image";
 import Navlink from "./Navlink";
 import { Button } from "@heroui/react";
 import logo from '../assets/logo.jpg';
-import background from '../assets/background.jpg'
 import { authClient } from "@/lib/auth-client";
 const Navbar = () => {
    

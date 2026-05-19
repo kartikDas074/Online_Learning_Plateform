@@ -1,47 +1,94 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
-import Image from  'next/image'
+import logo from'../assets/logo.jpg'
 const Footer = () => {
     return (
-        <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
-       
-  <nav>
-    <h6 className="footer-title">Services</h6>
-    <Link href={'/'}className="link link-hover">Branding</Link>
-    <Link href={'/'} className="link link-hover">Design</Link>
-    <Link href={'/'} className="link link-hover">Marketing</Link>
-    <Link href={'/'} className="link link-hover">Advertisement</Link>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Company</h6>
-    <Link href={'/'} className="link link-hover">About us</Link>
-    <a className="link link-hover">Contact</a>
-    <Link href={'/'}className="link link-hover">Jobs</Link>
-    <Link href={'/'} className="link link-hover">Press kit</Link>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Legal</h6>
-    <Link href={'/'}className="link link-hover">Terms of use</Link>
-    <Link href={'/'} className="link link-hover">Privacy policy</Link>
-    <Link href={'/'} className="link link-hover">Cookie policy</Link>
-  </nav>
-    <nav>
-    <h6 className="footer-title">Social</h6>
-    <div className="grid grid-flow-col gap-4">
-      <Link href={'/'}>
-        <FaInstagram></FaInstagram>
-      </Link>
-      <Link href={'/'}>
-        <FaTwitter></FaTwitter>
-      </Link>
-      <Link href={'/'}>
-      <FaFacebook></FaFacebook>
-      </Link>
+        <div className='w-full bg-neutral'>
+          <div className="w-full max-w-[95vw] md:max-w-[85vw] mx-auto pt-[80px] pb-5 bg-neutral">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12 ">
+      
+      
+      <div className="lg:col-span-1">
+         <Link href={'/'} className="flex items-center gap-2.5 group transition-transform active:scale-95">
+                  <div className="relative w-9 h-9 rounded-xl overflow-hidden shadow-md shadow-indigo-100 border border-gray-200">
+                    <Image
+                      src={logo} 
+                      alt="SkillSphere Logo" 
+                      height={500}
+                      width={300}
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      priority
+                    />
+                  </div>
+                  <span className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-900 bg-clip-text text-transparent">
+                    Skill<span className="text-blue-600 font-black">Sphere</span>
+                  </span>
+                </Link>
+      </div>
+
+     
+      <div>
+        <h3 className="text-lg font-semibold mb-6 text-[#FFFFFF]">Product</h3>
+        <ul className="space-y-4 text-gray-400 text-sm">
+          <li className="hover:text-white hover:underline cursor-pointer">Features</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Pricing</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Templates</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Integrations</li>
+        </ul>
+      </div>
+
+     
+      <div>
+        <h3 className="text-lg font-semibold mb-6  text-[#FFFFFF]">Company</h3>
+        <ul className="space-y-4 text-gray-400 text-sm">
+          <li className="hover:text-white hover:underline cursor-pointer">About</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Blog</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Careers</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Press</li>
+        </ul>
+      </div>
+
+    
+      <div>
+        <h3 className="text-lg font-semibold mb-6 text-[#FFFFFF]">Resources</h3>
+        <ul className="space-y-4 text-gray-400 text-sm mb-8">
+          <li className="hover:text-white hover:underline cursor-pointer">Documentation</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Help Center</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Community</li>
+          <li className="hover:text-white hover:underline cursor-pointer">Contact</li>
+        </ul>
+        
+      </div>
+      <div>
+           <h3 className="text-lg font-semibold mb-4  text-[#FFFFFF]">Social Links</h3>
+        <div className="flex gap-4">
+          <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-gray-200 cursor-pointer transition-all">
+            <FaInstagram></FaInstagram>
+          </div>
+          <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-gray-200 cursor-pointer transition-all">
+           <FaFacebook></FaFacebook>
+          </div>
+          <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black hover:bg-gray-200 cursor-pointer transition-all">
+            <FaTwitter></FaTwitter>
+          </div>
+        </div>
+        
+        </div>
     </div>
-  </nav>
-</footer>
+
+    
+    <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+      <p>© 2026 Digitools. All rights reserved.</p>
+      <div className="flex gap-6">
+        <span className="hover:text-white cursor-pointer">Privacy Policy</span>
+        <span className="hover:text-white cursor-pointer">Terms of Service</span>
+        <span className="hover:text-white cursor-pointer">Cookies</span>
+      </div>
+    </div>
+  </div>
+        </div>
     );
 };
-
-export default Footer;
+export default Footer
