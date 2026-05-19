@@ -18,6 +18,5 @@ export const config = {
    '/Pages/myprofile',
    '/Pages/courses/CourseDetail/:path*',
    '/Pages/instructpage/instDetail/:path*'
-
   ]
 }
