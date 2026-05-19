@@ -5,11 +5,7 @@ import Image from  'next/image'
 const Footer = () => {
     return (
         <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
-            <nav>
-                <Image>
-
-                </Image>
-            </nav>
+       
   <nav>
     <h6 className="footer-title">Services</h6>
     <Link href={'/'}className="link link-hover">Branding</Link>

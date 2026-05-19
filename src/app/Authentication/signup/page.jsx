@@ -11,6 +11,8 @@ import { authClient } from "@/lib/auth-client";
 import { redirect } from "next/dist/server/api-utils";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
+
+
 const Signup = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isConfirmVisible, setIsConfirmVisible] = useState(false);

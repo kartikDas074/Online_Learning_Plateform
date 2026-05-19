@@ -3,6 +3,7 @@
 
 import { authClient } from '@/lib/auth-client';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FaUser, FaEnvelope, FaLink, FaEdit } from 'react-icons/fa';
 
@@ -70,11 +71,13 @@ const Profilepage = () => {
                             </p>
                             
                         </div>
-
+                       <Link href={'/Pages/updateform'}>
                        <button className="btn btn-outline btn-sm w-full rounded-xl normal-case font-semibold gap-2 text-neutral border-base-300 hover:bg-neutral hover:text-white transition-all duration-200">
                             <FaEdit className="text-xs" />
                             Edit Profile
                         </button>
+                       </Link>
+                       
                     </div>
 
                     
