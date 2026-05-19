@@ -2,14 +2,19 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Input, Button } from '@heroui/react'; // Form ইম্পোর্ট বাদ দেওয়া হয়েছে
+import { Input, Button } from '@heroui/react'; 
 import { FcGoogle } from 'react-icons/fc';
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import background from "../../../assets/background.jpg";
 import { Form } from "@heroui/react";
 import { authClient } from '@/lib/auth-client';
 import { toast } from 'react-toastify';
+import { useSearchParams } from 'next/navigation';
 const Signin = () => {
+    const searchParams = useSearchParams();
+
+    const callbackUrl = searchParams.get("callbackUrl") || "/";
+    
     const [isVisible, setIsVisible] = useState(false);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -26,7 +31,7 @@ const Signin = () => {
        email: formdata.get('email'), // required
          password: formdata.get('password'), // required
     rememberMe: true,
-    callbackURL: "/",
+    callbackURL:callbackUrl,
     });
         // console.log(data); 
          if (error) {

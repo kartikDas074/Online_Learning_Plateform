@@ -8,6 +8,8 @@ const Profilepage = () => {
     let email = "sarah.johnson@example.com";
     let role = "Front-end Developer";
 
+
+
     return (
         <section className="min-h-screen bg-base-200/40 py-10 px-4">
             <div className="mx-auto max-w-6xl space-y-8">
