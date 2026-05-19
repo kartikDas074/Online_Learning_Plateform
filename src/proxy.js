@@ -17,6 +17,7 @@ export const config = {
   matcher: [
    '/Pages/myprofile',
    '/Pages/courses/CourseDetail/:path*',
-   '/Pages/instructpage/instDetail/:path*'
+   '/Pages/instructpage/instDetail/:path*',
+   '/Pages/updateform'
   ]
 }
