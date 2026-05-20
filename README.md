@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+My Project-SkillSphere :A online Learning Platform
+_____________________________________________________
+      A modern and responsive online learning platform where users can explore courses, view detailed course information, enroll in programs, and improve their skills through industry-focused learning content.
 
-## Getting Started
+🌐 Live Website
 
-First, run the development server:
+    👉  https://online-learning-plateform-vugv.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📂 GitHub Repository
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    👉 (https://github.com/kartikDas074/Online_Learning_Plateform)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🚀 Project Features
+___________________
+    🔐 Authentication system using BetterAuth
+    🧑 Google Login Authentication
+    📚 Browse all available courses
+    🔍 Search courses by title
+    🔒 Protected Course Details page
+    👤 User Profile page
+    ✏️ Update user information feature
+    🎥 Hero Banner / Slider
+    ⭐ Popular Courses section
+    📈 Trending Courses section
+    🧠 Learning Tips section
+    👨‍🏫 Top Instructors section
+    📱 Fully Responsive Design
+    ⚡ Fast performance with Next.js App Router
+    🔔 Toast notifications for actions
+    ⏳ Loading spinner while fetching data
+    ❌ Custom Not Found page
+    🌙 Modern UI using Tailwind CSS + HeroUI/DaisyUI
+    🎞️ Smooth animations using Motion / Swiper JS
+    🛠️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Frontend
+____________
+    Next.js 15
+    React.js
+    Tailwind CSS
+    DaisyUI / HeroUI
+    Motion / Swiper JS
+    
+Authentication
+_________________
+    BetterAuth
+    Google Authentication
 
-To learn more about Next.js, take a look at the following resources:
+Database
+_____________
+    MongoDB
+    Deployment
+    Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Project Features
+____________________
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🧩 Main Pages
+🏠 Home Page
+    Hero Section
+    Popular Courses
+    Trending Courses
+    Learning Tips
+    Top Instructors
+📚 All Courses Page
+    Show all course data
+    Search functionality
+    Course Details button
+🔒 Course Details Page
+    Protected route
+    Full course information
+    Static curriculum section
+🔐 Authentication Pages
+    Login
+    Email & Password Login
+    Google Login
+    Register
+    Name
+    Email
+    Photo URL
+    Password
+    Google Register/Login
+👤 My Profile Page
+    View logged-in user information
+    Update profile option
+    ✏️ Update Profile Page
+    Update name
+    Update image URL
